@@ -29,8 +29,7 @@ def calculate_rop(daily_demand, lead_time, safety_stock=0):
     """
     rop = (daily_demand * lead_time) + safety_stock
     return round(rop, 2)
-
-# Example Usage
+# assumptions
 annual_demand = 1200  # Annual demand in units
 ordering_cost = 100   # Fixed cost per order
 holding_cost = 5      # Holding cost per unit per year
